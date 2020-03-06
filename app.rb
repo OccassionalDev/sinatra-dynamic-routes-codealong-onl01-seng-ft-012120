@@ -19,8 +19,8 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}"
   end 
   
-  get '/multiply/:num1/:num2'
-    @product_of_num = params[:num1]*params[:num2]
-    "#{@product_of_num}"
-  end 
+  # get '/multiply/:num1/:num2'
+  #   @product_of_num = params[:num1]*params[:num2]
+  #   "#{@product_of_num}"
+  # end 
 end
